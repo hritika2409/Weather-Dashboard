@@ -97,6 +97,3 @@ The app is fully responsive and works well on:
   index.css
 
 
-## 📝 License
-
-MIT
