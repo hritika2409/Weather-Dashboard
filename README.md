@@ -1,12 +1,102 @@
-# React + Vite
+# Weather Dashboard App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Weather Dashboard web application built with React that allows users to search for any city and view its current weather information and 5-day forecast.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[View the live app](https://weather-dashboard-app.vercel.app/) <!-- Replace with your actual deployed URL -->
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Search for weather information by city name
+- View detailed current weather conditions:
+  - Temperature in Celsius
+  - Weather condition with icon
+  - Humidity percentage
+  - Wind speed in km/h
+  - Feels like temperature
+  - Pressure
+- 5-Day weather forecast
+- Recent search history (last 5 searched cities)
+- Dark/Light theme toggle
+- Responsive design for all device sizes
+- Loading indicators and error handling
+
+## 🛠 Tech Stack
+
+- *Framework*: React.js (built with Vite)
+- *State Management*: React Hooks (useState, useEffect)
+- *Styling*: CSS (custom styling, no UI libraries)
+- *API*: OpenWeatherMap API
+- *Deployment*: Vercel
+
+## 📋 Setup Instructions
+
+1. Clone the repository:
+   bash
+   git clone https://github.com/yourusername/weather-dashboard.git
+   cd weather-dashboard
+   
+
+2. Install dependencies:
+   bash
+   npm install
+   
+
+3. Create a .env file in the root directory and add your OpenWeatherMap API key:
+   
+   VITE_WEATHER_API_KEY=your_api_key_here
+   
+
+4. Start the development server:
+   bash
+   npm run dev
+   
+
+5. Build for production:
+   bash
+   npm run build
+   
+
+## 🔌 API Integration Details
+
+This app uses the OpenWeatherMap API to fetch weather data:
+
+- Current Weather API: https://api.openweathermap.org/data/2.5/weather
+- 5-Day Forecast API: https://api.openweathermap.org/data/2.5/forecast
+
+### Important API Notes:
+
+- Free tier API key has a limit of 60 calls/minute or 1,000,000 calls/month
+- All temperatures are fetched and displayed in Celsius units
+- API response includes weather icons which are displayed in the UI
+- Wind speed is converted from m/s to km/h for better readability
+
+## 📱 Responsive Design
+
+The app is fully responsive and works well on:
+- Mobile devices (320px+)
+- Tablets (768px+)
+- Desktops (1024px+)
+
+## 🧪 Project Structure
+
+
+/src
+  /components
+    ErrorMessage.jsx
+    ForecastSection.jsx
+    Loader.jsx
+    RecentSearches.jsx
+    SearchForm.jsx
+    ThemeToggle.jsx
+    WeatherCard.jsx
+  App.jsx
+  App.css
+  main.jsx
+  index.css
+
+
+## 📝 License
+
+MIT
