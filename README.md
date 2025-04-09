@@ -74,19 +74,19 @@ This app uses the OpenWeatherMap API to fetch weather data:
 
 ## 🧪 Project Structure
 
-
 /src
-  /components
-    ErrorMessage.jsx
-    ForecastSection.jsx
-    Loader.jsx
-    RecentSearches.jsx
-    SearchForm.jsx
-    ThemeToggle.jsx
-    WeatherCard.jsx
-  App.jsx
-  App.css
-  main.jsx
-  index.css
+├── /components
+│   ├── ErrorMessage.jsx
+│   ├── ForecastSection.jsx
+│   ├── Loader.jsx
+│   ├── RecentSearches.jsx
+│   ├── SearchForm.jsx
+│   ├── ThemeToggle.jsx
+│   └── WeatherCard.jsx
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+
 
 
