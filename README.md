@@ -72,13 +72,6 @@ This app uses the OpenWeatherMap API to fetch weather data:
 - API response includes weather icons which are displayed in the UI
 - Wind speed is converted from m/s to km/h for better readability
 
-## 📱 Responsive Design
-
-The app is fully responsive and works well on:
-- Mobile devices (320px+)
-- Tablets (768px+)
-- Desktops (1024px+)
-
 ## 🧪 Project Structure
 
 
