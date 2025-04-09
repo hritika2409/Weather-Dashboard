@@ -4,7 +4,7 @@ A responsive Weather Dashboard web application built with React that allows user
 
 ## 🚀 Live Demo
 
-[View the live app](https://weather-dashboard-app.vercel.app/) <!-- Replace with your actual deployed URL -->
+[View the live app](https://weather-dashboard-three-beige.vercel.app/)
 
 ## ✨ Features
 
